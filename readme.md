@@ -1,5 +1,14 @@
 # Ingress setup in a kubernetes environment and implement custom rate limiting
 
+---
+## Screenshots of Working setup
+
+Here is  screenshot of the application:
+
+![Application Screenshot](screenshots/app1.png?raw=true)
+
+---
+
 step-by-step process to Ingress setup in a kubernetes environment and implement custom rate limiting .
 
 ---
