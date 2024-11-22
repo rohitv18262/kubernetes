@@ -1,6 +1,6 @@
-# Minikube Installation on Ubuntu 22.04
+# Ingress setup in a kubernetes environment and implement custom rate limiting
 
-This guide explains the step-by-step process to install Minikube on Ubuntu 22.04.
+This guide explains the step-by-step process to Ingress setup in a kubernetes environment and implement custom rate limiting on Ubuntu 22.04.
 
 ---
 
