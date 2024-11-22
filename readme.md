@@ -1,16 +1,6 @@
 # Ingress setup in a kubernetes environment and implement custom rate limiting
 
-This guide explains the step-by-step process to Ingress setup in a kubernetes environment and implement custom rate limiting on Ubuntu 22.04.
-
----
-
-## Prerequisites
-
-Ensure the following requirements are met before proceeding:
-
-- **System Requirements**: At least 2 CPUs and 2GB of free memory.
-- **Dependencies**: `curl`, `docker` (or another supported driver).
-- **Virtualization Environment**: Docker.
+step-by-step process to Ingress setup in a kubernetes environment and implement custom rate limiting .
 
 ---
 
