@@ -5,8 +5,9 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/limit-rpm: "5"                   
     nginx.ingress.kubernetes.io/limit-key: "$binary_remote_addr$http_x_client_id"
-    nginx.ingress.kubernetes.io/limit-req-status: "429"
-    nginx.ingress.kubernetes.io/limit-burst: "5"  
+    nginx.ingress.kubernetes.io/limit-burst: "5" 
+    nginx.ingress.kubernetes.io/limit-req-status-code: "429"
+    nginx.ingress.kubernetes.io/limit-conn-status-code: "429" 
 spec:
   ingressClassName: nginx
   rules:
