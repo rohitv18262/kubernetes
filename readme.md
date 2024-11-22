@@ -5,7 +5,13 @@
 
 Here is  screenshot of the application:
 
-![Application Screenshot](screenshots/app1.png?raw=true)
+![App1 screenshot](screenshots/app1.png?raw=false)
+
+![App2 screenshot](screenshots/app2.png?raw=false)
+
+![other path screenshot](screenshots/third.png?raw=false)
+
+![rate limiting screenshot](screenshots/fourth.png?raw=false)
 
 ---
 
