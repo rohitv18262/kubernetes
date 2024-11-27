@@ -5,7 +5,7 @@ import pandas as pd
 import json
 import requests
 cmd = ['df', '-h']
-slack_channel = 'https://hooks.slack.com/services/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'
+slack_channel = 'slack url'
 
 lsProcess = subprocess.Popen(cmd, stdout=subprocess.PIPE)
 output , error= lsProcess.communicate()
