@@ -2,10 +2,11 @@ apiVersion: v1
 data:
   enable-vts-status: "true"
   hsts: "false"
-  limit-burst: "5"
+  limit-burst: "1"
   limit-req-status-code: "429"
   limit-req-zone: zone=default:10m rate=5r/m
   limit-rpm: "5"
+  limit-req-zone-redis: '{"host": "redis.redis.svc.cluster.local", "port": 6379, "key": "$binary_remote_addr$http_x_client_id", "zone_size": "10m", "rate": "5r/m"}'
   log-format-upstream: '{"time_local": "$time_local", "remote_addr": "$remote_addr",
     "remote_user": "$remote_user", "request": "$request", "status": "$status", "body_bytes_sent":
     "$body_bytes_sent", "http_referer": "$http_referer", "http_user_agent": "$http_user_agent",
@@ -29,7 +30,7 @@ apiVersion: v1
 data:
   enable-vts-status: "true"
   hsts: "false"
-  limit-burst: "5"
+  limit-burst: "1"
   limit-req-status-code: "429"
   limit-req-zone: zone=default:10m rate=5r/m
   limit-rpm: "5"
