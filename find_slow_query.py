@@ -4,7 +4,7 @@ file1 = open("mongo-db-sample-log.txt", "r+")
 
 
 substring = "command"
-with open('/home/rohit/Documents/marrow-interview/kubernetes/mongo-db-sample-log.txt','r') as file:
+with open('mongo-db-sample-log.txt','r') as file:
  
     for line in file:
         if substring in line:
